@@ -1,0 +1,17 @@
+javac FrameAgent.java
+javac PixelAgent1.java
+javac PixelAgent2.java
+javac PixelAgent3.java
+javac PixelAgent4.java
+javac PixelAgent5.java
+javac PixelAgent6.java
+javac PixelAgent7.java
+javac PixelAgent8.java
+javac PixelAgent9.java
+javac PixelAgent10.java
+javac PixelAgent11.java
+javac PixelAgent12.java
+javac PixelAgent13.java
+javac PixelAgent14.java
+javac PixelAgent15.java
+javac PixelAgent16.java

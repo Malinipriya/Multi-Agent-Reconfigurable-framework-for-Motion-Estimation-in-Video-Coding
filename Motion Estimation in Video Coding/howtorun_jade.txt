@@ -1,0 +1,14 @@
+Executing jade:
+
+1)5 jar files
+2)java -cp JADE-bin-4.3.1\jade\lib\jade.jar jade.Boot -gui
+3)jade window opens up
+4)File->shut down
+5)java -cp JADE-bin-4.3.1\jade\lib\jade.jar;classes jade.Boot -gui -agents ping1:examples.PingAgent.PingAgent 
+	P.S. Inside Java, Classes->examples->PingAgent->PingAgent.java,PingAgent.class
+6)To run frame agent
+****man 11 & 12:
+java -cp JADE-bin-4.3.1\jade\lib\jade.jar;classes jade.Boot -gui -agents fa:human_action.FrameAgent
+7)To run  16 pixel agents
+****man 11 & 12:
+java -cp JADE-bin-4.3.1\jade\lib\jade.jar;classes jade.Boot -gui -agents pa1:human_action.PixelAgent1;pa2:human_action.PixelAgent2;pa3:human_action.PixelAgent3;pa4:human_action.PixelAgent4;pa5:human_action.PixelAgent5;pa6:human_action.PixelAgent6;pa7:human_action.PixelAgent7;pa8:human_action.PixelAgent8;pa9:human_action.PixelAgent9;pa10:human_action.PixelAgent10;pa11:human_action.PixelAgent11;pa12:human_action.PixelAgent12;pa13:human_action.PixelAgent13;pa14:human_action.PixelAgent14;pa15:human_action.PixelAgent15;pa16:human_action.PixelAgent16
